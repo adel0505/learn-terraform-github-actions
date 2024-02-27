@@ -15,10 +15,10 @@ terraform {
   required_version = ">= 1.1.0"
 
   cloud {
-    organization = "REPLACE_ME"
+    organization = "MAN-GithubActions-Demo"
 
     workspaces {
-      name = "gh-actions-demo"
+      name = "project-gitubaction-demo"
     }
   }
 }
